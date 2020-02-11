@@ -27,8 +27,8 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
-        layout.minimumLineSpacing = 4
-        layout.minimumLineSpacing = 4
+        layout.minimumLineSpacing = 40
+        layout.minimumLineSpacing = 40
         
         let width = (view.frame.size.width - layout.minimumLineSpacing * 2) / 3
         //185 , 250
